@@ -4,5 +4,5 @@ classdef  Lock < Simulink.IntEnumType
          Vehicle_Unlocked(1)
     end
     
-    check
+    check not this
 end
