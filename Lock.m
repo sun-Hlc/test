@@ -1,8 +1,6 @@
 classdef  Lock < Simulink.IntEnumType
     enumeration 
-         Vehicle_locked(0)
-         Vehicle_Unlocked(1)
+         Vehicle_locked(1)
+         Vehicle_Unlocked(2)
     end
-    
-    check not this
 end
