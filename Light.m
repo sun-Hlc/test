@@ -1,4 +1,4 @@
-classdef  Light < Simulink.IntEnumType
+classdef  Light< Simulink.IntEnumType
     enumeration 
         Headlight_Off(1)
         High_beam(2)
