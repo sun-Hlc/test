@@ -1,1 +1,0 @@
-xlswrite('TTnew.xlsx',out.Actual.data,'F2:F17');
