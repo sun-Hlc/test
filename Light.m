@@ -1,4 +1,4 @@
-classdef  Light< Simulink.IntEnumType
+classdef  Light < Simulink.IntEnumType
     enumeration 
         Headlight_Off(1)
         High_beam(2)
@@ -12,5 +12,12 @@ classdef  Light< Simulink.IntEnumType
         R_Ambient_Light_off(10)
         L_Ambient_Light_off(11)
         
+        
+        
+    end
+    methods (Static)
+    function retVal = getDefaultValue()
+      retVal = Light.Headlight_Off;
+    end
     end
 end
